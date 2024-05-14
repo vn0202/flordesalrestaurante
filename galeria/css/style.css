@@ -1,0 +1,133 @@
+
+.rg-image-wrapper{
+	position:relative;
+	padding:10px 10px;
+	background:transparent url(/web/20131224072935im_/http://flordesalrestaurante.com/galeria/images/black.png) repeat top left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	min-height:20px;
+	/*width: 100%;*/
+	/*height: 240px;*/
+}
+.rg-image{
+	position:relative;
+	text-align:center;
+	line-height:0px;
+}
+.rg-image img{
+	
+	width:100%;
+	height:100%;
+	z-index: -10px;
+}
+
+
+.rg-image-nav a{
+    z-index: 10;
+	position:absolute;
+	top:0px;
+	left:4px;
+	background:#000 url(/web/20131224072935im_/http://flordesalrestaurante.com/galeria/images/nav.png) no-repeat -20% 50%;
+	width:28px;
+	height:100%;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.3;
+	outline:none;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+.rg-image-nav a.rg-image-nav-next{
+	z-index:10;
+	right:5px;
+	left:auto;
+	background-position:115% 50%;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+.rg-image-nav a:hover{
+	opacity:0.8;
+}
+.rg-caption {
+	z-index:10px;
+	text-align:center;
+	margin-top:-30px;
+	position:relative;
+	background-image:url("/web/20131224072935im_/http://flordesalrestaurante.com/galeria/fundo2.png");
+	
+	min-height:20px;
+	max-height:40px;
+	
+}
+.rg-caption p{
+	font-size:11px;
+	letter-spacing:2px;
+	line-height:16px;
+	padding:0 15px;
+	color:#fff;
+}
+.rg-view{
+	margin-top:10px;
+	height:30px;
+}
+.rg-view a{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	background:#464646 url(/web/20131224072935im_/http://flordesalrestaurante.com/galeria/images/views.png) no-repeat top left;
+	border:3px solid #464646;
+	opacity:0.8;
+}
+.rg-view a:hover{
+	opacity:1.0;
+}
+.rg-view a.rg-view-full{
+	background-position:0px 0px;
+}
+.rg-view a.rg-view-selected{
+	background-color:#6f6f6f;
+	border-color:#6f6f6f;
+}
+.rg-view a.rg-view-thumbs{
+	background-position:0px -16px;
+}
+.rg-loading{
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#000 url(/web/20131224072935im_/http://flordesalrestaurante.com/galeria/images/ajax-loader.gif) no-repeat center center;
+	margin:-23px 0px 0px -23px;
+	z-index:100;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	opacity:0.7;
+}
+
+/*
+     FILE ARCHIVED ON 07:29:35 Dec 24, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:51:17 May 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.825
+  exclusion.robots: 0.249
+  exclusion.robots.policy: 0.236
+  esindex: 0.01
+  cdx.remote: 89.97
+  LoadShardBlock: 103.939 (3)
+  PetaboxLoader3.datanode: 93.046 (4)
+  PetaboxLoader3.resolve: 92.106 (2)
+  load_resource: 114.758
+*/
