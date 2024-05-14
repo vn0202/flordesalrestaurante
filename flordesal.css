@@ -1,0 +1,99 @@
+A{ color:#B59765; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none;}
+A:hover{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none;}
+
+
+.a_noticia {color: #243A5E; font-size: 7pt; font-family:   Verdana; font-weight: bold; text-decoration: none; vertical-align:middle}
+.a_noticia:hover {color: #968A79; font-size: 7pt; font-family:  Verdana; font-weight: bold; text-decoration: none; vertical-align:middle}
+.texto_noticia {color: #919191; font-size: 8pt; font-family:    Verdana; font-weight: normal; text-decoration: none}
+.titulo_noticia {color: #FEFEFE; font-size: 12pt; font-family:    Arial; font-weight: normal; text-decoration: none; text-align:left}
+
+.lermais{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#B29760; text-decoration:none;}
+.lermais:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#EE2A36; text-decoration:none;}
+
+.a_subpaginas {color: #E89616; font-size: 8pt; font-family:   Verdana; font-weight: bold; text-decoration: none; vertical-align:middle}
+.a_subpaginas:hover {color: #393A34; font-size: 8pt; font-family:  Verdana; font-weight: bold; text-decoration: none; vertical-align:middle}
+
+.thumbs{  border:1px #615137 solid; cursor:pointer; }
+
+.a_newsletter {color: #E2850C; font-size: 9pt; font-family:    Verdana; font-weight: bold; text-decoration: none; text-align:center}
+.a_newsletter:hover {color: #919191; font-size: 9pt; font-family:    Verdana; font-weight: bold; text-decoration: none; text-align:center}
+.input_newsletter {border:0px; border-bottom:1px #5C513D solid; vertical-align:bottom; background-color:#543B13; width:142px; height:19px; color:#7A5F34; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+
+.input280 {width: 290px;}
+
+.avisosugira {color: #35372D; font-size: 10pt; font-family:    Verdana; font-weight: bold; text-decoration: none; text-align:center}
+
+.titulo_newsletter { font-family:Verdana, Arial, Helvetica, sans-serif; }
+.texto_newsletter { font-family:Verdana, Arial, Helvetica, sans-serif; }
+
+
+.a_menu{ color:#B59765; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none;}
+.a_menu:hover{ color:#EE2A36; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none;}
+
+.atopo{ color:#BFBFBF; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none;}
+.atopo:hover{ color:#EE2A36; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none;}
+.separadortopo{ color:#BFBFBF; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; margin-left:5px; margin-right:5px;}
+
+.afundo{ color:#82725B; font-family:Arial, Helvetica, sans-serif; font-size:9px; text-transform:uppercase; text-decoration:none;}
+.afundo:hover{ color:#EE2A36; font-family:Arial, Helvetica, sans-serif; font-size:9px; text-transform:uppercase; text-decoration:none;}
+
+.separador{ color:#B59765; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; margin-left:10px; margin-right:10px;}
+
+.menu_lingua{ color:#9F8E70; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#4A3719; cursor:pointer; border:1px #4A3719 solid; height:16px;}
+.menu_lingua:hover{ color:#9F8E70; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#4A3719; cursor:pointer; border:1px #ffffff solid; height:16px;}
+
+.submenus, .but{ color:#9F8E70; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#32230C; cursor:pointer; border:1px #32230C solid; height:23px;}
+.submenus:hover, but:hover{ color:#9F8E70; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#32230C; cursor:pointer; border:1px #ffffff solid; height:23px;}
+
+.submenus2{ color:#32230C; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#9F8E70; cursor:pointer; border:1px #32230C solid; height:23px;}
+.submenus2:hover{ color:#32230C; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#9F8E70; cursor:pointer; border:1px #ffffff solid; height:23px;}
+
+.degrade{background-image:url(/web/20150819104254im_/http://www.flordesalrestaurante.com/images/gradiente_flor_desal.jpg); background-position:top left; background-repeat:no-repeat;}
+
+.tabelacalendario{ background-color:#32230C; border:5px #110A00 solid; }
+.tabela_titulo_cal { background-color:#B70304;}
+.titulo_calendario {color: #ffffff; font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; text-transform:uppercase; text-align:center; background-color:#5E4E35; height:23px; vertical-align:middle; border-bottom:5px #32230C solid;}
+.titulo_calendario2 {color: #5E4E35; font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; text-decoration: none; text-transform:uppercase; text-align:center; height:15px; vertical-align:middle; }
+.texto_dias_calendario {color: #5E4E35; font-size:11px; font-family: Arial, Helvetica, sans-serif; text-decoration: none; height:20px;}
+.texto_dia_calendario {	color: #B19E80;	font-size:11px;	font-family: Arial, Helvetica, sans-serif;	text-decoration: none;}
+.texto_ev_passado {	color: #5E4E35;	font-size:10px;	font-family: Arial, Helvetica, sans-serif;	text-decoration: none; background-color:#AF9E80}
+.setas_calendario {color: #52534e; font: 8pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+.setas_calendario:hover {color: #000000; font: 8pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+.fundo_mes_calendario {background-color:none}
+.barra_sep_calendario {background-color:#B19E80}
+.dias_passados_calendario {background-color:none}
+.dias_apassar_calendario {background-color:none}
+/*.dia_calendario {background-color:#FFFFFF; border:2px #D6DB02 solid;}*/
+.dia_calendario {background-color:none; color:#B19E80}
+.cabsemana{ background-color:#3F3019; font-family:Arial, Helvetica, sans-serif; font-size:10px; color: #9F8E70; }
+
+.titulotopo { color:#82673A; font-family:Arial, Helvetica, sans-serif; font-size:16px;text-decoration:none; text-transform:uppercase; margin-left:20px;}
+.titulo { color:#9F8E70; font-family:Arial, Helvetica, sans-serif; font-size:14px;text-decoration:none;}
+.texto { color: #5E4E35; font-family:Arial, Helvetica, sans-serif; font-size:12px;text-decoration:none;}
+
+
+#fadeinbox{position:absolute;width: 300px;left: 0;top: -400px;border: 2px solid #fff;background-color: #B59765;padding: 4px;z-index: 100;visibility:hidden;}
+.carregar{color:#79797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; text-align:center; vertical-align:top; text-decoration:none;height:200px;width:310px;}
+.dialog {display:none; position:absolute;z-Index: 999; border: 2px #615137 solid; background-color: #ffffff; padding: 5px;}
+#bodyOverlay {	  background-color: #000000;	  opacity: 0.8;	  position: absolute;	  top: 0;	  left: 0;	  width: 100%;	  z-Index: 998;}
+
+/*
+     FILE ARCHIVED ON 10:42:54 Aug 19, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:49:16 May 14, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.832
+  exclusion.robots: 0.234
+  exclusion.robots.policy: 0.219
+  esindex: 0.012
+  cdx.remote: 26.667
+  LoadShardBlock: 195.963 (3)
+  PetaboxLoader3.datanode: 191.987 (4)
+  PetaboxLoader3.resolve: 126.462 (2)
+  load_resource: 126.109
+*/
