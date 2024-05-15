@@ -48,7 +48,7 @@ A:hover{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px
 .submenus2{ color:#32230C; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#9F8E70; cursor:pointer; border:1px #32230C solid; height:23px;}
 .submenus2:hover{ color:#32230C; font-family:Arial, Helvetica, sans-serif; font-size:11px; text-transform:uppercase; text-decoration:none; text-align:center; background-color:#9F8E70; cursor:pointer; border:1px #ffffff solid; height:23px;}
 
-.degrade{background-image:url(/web/20150819104254im_/http://www.flordesalrestaurante.com/images/gradiente_flor_desal.jpg); background-position:top left; background-repeat:no-repeat;}
+.degrade{background-image:url(/images/gradiente_flor_desal.jpg); background-position:top left; background-repeat:no-repeat;}
 
 .tabelacalendario{ background-color:#32230C; border:5px #110A00 solid; }
 .tabela_titulo_cal { background-color:#B70304;}
