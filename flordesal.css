@@ -76,7 +76,14 @@ A:hover{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px
 .carregar{color:#79797B; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; text-align:center; vertical-align:top; text-decoration:none;height:200px;width:310px;}
 .dialog {display:none; position:absolute;z-Index: 999; border: 2px #615137 solid; background-color: #ffffff; padding: 5px;}
 #bodyOverlay {	  background-color: #000000;	  opacity: 0.8;	  position: absolute;	  top: 0;	  left: 0;	  width: 100%;	  z-Index: 998;}
-
+/*manual style */
+.manual-titulo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #F8951E;
+    font-weight: normal;
+    margin: 15px;
+}
 /*
      FILE ARCHIVED ON 10:42:54 Aug 19, 2015 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 08:49:16 May 14, 2024.
