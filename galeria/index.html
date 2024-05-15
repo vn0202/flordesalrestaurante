@@ -17,7 +17,7 @@
 
 </head>
 <body bgcolor="#35260f" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0"
-      style="background-image:url(/images/background.gif); background-position:top left; background-repeat:repeat-x;">
+      style="background-image:url(images/background.gif); background-position:top left; background-repeat:repeat-x;">
 <div id="box" class="dialog">
     <div id="dinimg"></div>
 </div>
@@ -41,11 +41,6 @@
                                     <img src="/images/spacer.gif" alt="" width="1" height="26"></td>
                                 <td width="31" height="26" align="left" valign="top">
 
-                                    <div style="position:absolute; border:none; margin-top:6px; margin-left:-10px;">
-                                        <script type="text/javascript">
-                                          AC_FL_RunContent('codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0', 'width', '40', 'height', '17', 'src', 'menu2', 'quality', 'high', 'pluginspage', 'http://www.macromedia.com/go/getflashplayer', 'WMode', 'transparent', 'menu', 'false', 'movie', 'som/audio', 'FlashVars', 'fich=som/audiorestaurante');
-                                        </script>
-                                    </div>
                                     <img src="/images/spacer.gif" width="31" height="26"></td>
                                 <td bgcolor="#000000" width="218" height="26" valign="top">
                                     <a href="/reservas" class="atopo" style="margin-left:10px;">Reservas On-Line</a>
@@ -75,21 +70,21 @@
 
                                     </form>
                                     <script language="javascript">
-                                      function muda_texto(a, opt) {
-                                        if (a.value == "O seu email aqui" && opt == 1)
-                                          a.value = "";
-                                        else if (a.value == "" && opt == 2)
-                                          a.value = "O seu email aqui";
-                                      }
+                                        function muda_texto(a, opt) {
+                                            if (a.value == "O seu email aqui" && opt == 1)
+                                                a.value = "";
+                                            else if (a.value == "" && opt == 2)
+                                                a.value = "O seu email aqui";
+                                        }
 
-                                      function news_valida() {
-                                        //document.forms[0].target="corpo";
-                                        if (frm_newsletter.email.value != "" && frm_newsletter.email.value != "O seu email aqui")
-                                          frm_newsletter.action = "/newsletter&reg=2&nome=0";
-                                        else
-                                          frm_newsletter.action = "/newsletter";
-                                        frm_newsletter.submit();
-                                      }
+                                        function news_valida() {
+                                            //document.forms[0].target="corpo";
+                                            if (frm_newsletter.email.value != "" && frm_newsletter.email.value != "O seu email aqui")
+                                                frm_newsletter.action = "/newsletter&reg=2&nome=0";
+                                            else
+                                                frm_newsletter.action = "/newsletter";
+                                            frm_newsletter.submit();
+                                        }
 
                                     </script>
                                 </td>
@@ -160,7 +155,7 @@
                                         <div style="margin:15px; margin-top:0px">
                                             <table id="Table_01" width="100%" height="16" border="0" cellpadding="0"
                                                    cellspacing="0" height="44"
-                                                   style="background-image:url(/images/bg_titulo.gif); background-position:top left; background-repeat:repeat-x;">
+                                                   style="background-image:url(images/bg_titulo.gif); background-position:top left; background-repeat:repeat-x;">
                                                 <tr>
                                                     <td width="*" height="44">
                                                         <div id="titulo" class="titulotopo">&nbsp;</div>
@@ -174,11 +169,12 @@
                                                         <div style="height:100%; width:100%; border:1px #615137 solid;">
 
                                                             <link rel="stylesheet" type="text/css"
-                                                                  href="/galeria/css/style.css"/>
+                                                                  href="galeria/css/style.css"/>
                                                             <link rel="stylesheet" type="text/css"
-                                                                  href="/galeria/css/elastislide.css"/>
-                                                            <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1'
-                                                                  rel='stylesheet' type='text/css'/>
+                                                                  href="galeria/css/elastislide.css"/>
+                                                            <link
+                                                                href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1'
+                                                                rel='stylesheet' type='text/css'/>
                                                             <link href='http://fonts.googleapis.com/css?family=Pacifico'
                                                                   rel='stylesheet' type='text/css'/>
                                                             <script type="text/javascript"
@@ -229,16 +225,16 @@
                                                                                         Select * from galeria_imagens
                                                                                         where galeria=21
                                                                                         <li><a href="#"><img
-                                                                                                src="/gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
-                                                                                                data-large="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
-                                                                                                alt="foto"
-																								data-description="Pormenor Garrafeira"/></a>
+                                                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                                                            data-large="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                                                            alt="foto"
+                                                                                            data-description="Pormenor Garrafeira"/>
                                                                                         </li>
                                                                                         <li><a href="#"><img
-                                                                                                src="/gestao/galeria/fotos/sestar_002.jpg"
-                                                                                                data-large="gestao/galeria/fotos/sestar_002.jpg"
-                                                                                                alt="foto"
-																								data-description="Sala interior"/></a>
+                                                                                            src="gestao/galeria/fotos/sestar_002.jpg"
+                                                                                            data-large="gestao/galeria/fotos/sestar_002.jpg"
+                                                                                            alt="foto"
+                                                                                            data-description="Sala interior"/>
                                                                                         </li>
 
                                                                                     </ul>
@@ -251,8 +247,6 @@
                                                                     </div><!-- container -->
 
                                                                 </div>
-															</div>
-
                                                     </td>
                                                 </tr>
                                             </table>
@@ -266,7 +260,7 @@
                                                     top: 1px;
                                                     height: 0px;
                                                     padding: 10px 10px 10px 10px;
-                                                    background-image: url("galeria/fundo2.png");
+                                                    background-image: url("/galeria/fundo2.png");
                                                 }
 
                                                 .tituloGaleria a {
@@ -289,40 +283,40 @@
                                                 <tr>
                                                     <td style="border:1px #615137 solid;">
                                                         <div class="imagem"><img
-                                                                src="/gestao/galeria/fotos/sestar_002.jpg"
-                                                                alt="capa galeria" height="150px" width="206px">
+                                                            src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria"
+                                                            height="150px" width="206px">
                                                             <div class="tituloGaleria">
-                                                                <center><a href="/galeria&galeria=25">Esplanada</a>
+                                                                <center><a href="#">Esplanada</a>
                                                                 </center>
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td style="border:1px #615137 solid;">
                                                         <div class="imagem"><img
-                                                                src="/gestao/galeria/fotos/sestar_002.jpg"
-                                                                alt="capa galeria" height="150px" width="206px">
+                                                            src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria"
+                                                            height="150px" width="206px">
                                                             <div class="tituloGaleria">
-                                                                <center><a href="/galeria&galeria=23">Sala de Jantar</a>
+                                                                <center><a href="#">Sala de Jantar</a>
                                                                 </center>
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td style="border:1px #615137 solid;">
                                                         <div class="imagem"><img
-                                                                src="/gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
-                                                                alt="capa galeria" height="150px" width="206px">
+                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                            alt="capa galeria" height="150px" width="206px">
                                                             <div class="tituloGaleria">
-                                                                <center><a href="/galeria&galeria=21">Restaurante</a>
+                                                                <center><a href="#">Restaurante</a>
                                                                 </center>
                                                             </div>
                                                         </div>
                                                     </td>
                                                     <td style="border:1px #615137 solid;">
                                                         <div class="imagem"><img
-                                                                src="/gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
-                                                                alt="capa galeria" height="150px" width="206px">
+                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                            alt="capa galeria" height="150px" width="206px">
                                                             <div class="tituloGaleria">
-                                                                <center><a href="/galeria&galeria=24">Bar</a></center>
+                                                                <center><a href="#">Bar</a></center>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -337,29 +331,31 @@
                 </tr>
                 <tr>
                     <td colspan="2" width="929" height="56"
-                        style="background-image:url(/images/bg_linguas.gif); background-position:top left; background-repeat:repeat-x;">
+                        style="background-image:url(images/bg_linguas.gif); background-position:top left; background-repeat:repeat-x;">
                         <table id="Table_01" width="216" height="16" border="0" cellpadding="0" cellspacing="0"
                                style="margin:10px;">
                             <tr>
-                                <td width="103" class="menu_lingua">Português</td>
+                                <td width="103" class="menu_lingua">Português
+                                </td>
                                 <td width="*">&nbsp;</td>
-                                <td width="103" class="menu_lingua">English</td>
+                                <td width="103" class="menu_lingua">English
+                                </td>
                             </tr>
                         </table>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" width="929" height="27"
-                        style="background-image:url(/images/bg_menufundo.gif); background-position:top left; background-repeat:repeat-x;">
+                        style="background-image:url(images/bg_menufundo.gif); background-position:top left; background-repeat:repeat-x;">
                         <table id="Table_01" width="929" height="27" border="0" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td align="left">
                                     <a href="/sugira" class="afundo" style="margin-left:10px;">Recomendar este Site</a>
                                     <span class="afundo">|</span>
                                     <a href="javascript:addfav()" class="afundo">Favoritos</a> <span
-                                        class="afundo">|</span>
+                                    class="afundo">|</span>
                                     <a href="/privacidade" class="afundo">Política de Privacidade</a> <span
-                                        class="afundo">|</span>
+                                    class="afundo">|</span>
                                     <a href="/faqs" class="afundo">Perguntas frequentes</a>
 
                                 </td>
