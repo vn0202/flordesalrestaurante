@@ -1,289 +1,379 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Bem Vindo ao site Flor de Sal</title>
-<link rel='StyleSheet' type='text/css' href='/flordesal.css'>
-<script src="/modal/modal.js" type="text/javascript"></script>
-<script src="flordesal.js" type="text/javascript"></script>
-<script src="AC_RunActiveContent.js" type="text/javascript"></script>
-<!--[if IE]>
-<style type="text/css">
-#bodyOverlay {
-	 filter:alpha(opacity=80);
-}
-</style>
-<![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Bem Vindo ao site Flor de Sal</title>
+    <link rel='StyleSheet' type='text/css' href='/flordesal.css'>
+    <script src="/modal/modal.js" type="text/javascript"></script>
+    <script src="flordesal.js" type="text/javascript"></script>
+    <script src="AC_RunActiveContent.js" type="text/javascript"></script>
+    <!--[if IE]>
+    <style type="text/css">
+        #bodyOverlay {
+            filter: alpha(opacity=80);
+        }
+    </style>
+    <![endif]-->
 
 </head>
-<body bgcolor="#35260f" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0"  style="background-image:url(images/background.gif); background-position:top left; background-repeat:repeat-x;">
-	<div id="box" class="dialog"><div id="dinimg"></div></div>
-	<table cellpadding="0" cellspacing="0" height="100%" width="100%" style="margin:15px;">
-		<tr>
-			<td height="*" colspan="3"><img src="/images/spacer.gif"></td>
-		</tr>		
-		<tr>
-			<td width="*">&nbsp;</td>
-			<td width="929">
-				<table id="Table_01" width="929" border="0" cellpadding="0" cellspacing="0" bgcolor="#110A00" class="degrade" style="border:7px #000000 solid;">
-	<tr>
-		<td rowspan="2">
-			<a href="/"><img src="/images/flordesal_01.jpg" width="179" height="79" alt="" border="0"></a></td>
-		<td width="750" height="26">
-			<table id="Table_01" width="750" height="26" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td width="332" height="26">
-			<img src="/images/spacer.gif" alt="" width="1" height="26"></td>
-		<td width="31" height="26" align="left" valign="top">
-		
-			<div style="position:absolute; border:none; margin-top:6px; margin-left:-10px;">
-										<script type="text/javascript">
-						AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0','width','40','height','17','src','menu2','quality','high','pluginspage','http://www.macromedia.com/go/getflashplayer','WMode','transparent','menu','false','movie','som/audio','FlashVars','fich=som/audiorestaurante' );
-					</script>
-			</div>
-			<img src="/images/spacer.gif" width="31" height="26"></td>
-		<td bgcolor="#000000" width="218" height="26" valign="top">
-				<a href="/reservas" class="atopo" style="margin-left:10px;">Reservas On-Line</a> <span  class="separadortopo">|</span>
-			<a href="/newsletter" class="atopo">Newsletter</a></td>
-		<td bgcolor="#000000" width="169" height="26">
-			<form name="frm_newsletter" method="post" action="" style="margin:0px">
-	<table id="Table_01"width="169" height="26" border="0" cellpadding="0" cellspacing="0">
-		<tr>
-			<td height="20" valign="top" align="left">
-				<input type="text" class="input_newsletter"  value="O seu email aqui" name="email" onMouseOver="muda_texto(this,1);" onMouseLeave="muda_texto(this,2);" >				
-			</td>
-			<td><img src="/images/spacer.gif" width="5" height="20"></td>
-			<td width="22" height="20" bgcolor="#f1f1ef" valign="middle"  align="center" class="menu_lingua" onclick="news_valida();">
-				OK
-			</td>
-		</tr>
-		<tr><td colspan="3" height="6"><img src="/images/spacer.gif" width="1" height="6"></td></tr>
-	</table>
-	
-</form>
- <script language="javascript">
- 		function muda_texto(a,opt)
-			{
-			if(a.value=="O seu email aqui" && opt==1)
-				a.value="";
-			else if(a.value=="" && opt==2)
-				a.value="O seu email aqui";
-			}
-		function news_valida()
-			{
-			//document.forms[0].target="corpo";
-			if(frm_newsletter.email.value!="" && frm_newsletter.email.value!="O seu email aqui")
-				frm_newsletter.action="/newsletter&reg=2&nome=0";
-			else
-				frm_newsletter.action="/newsletter";
-			frm_newsletter.submit();
-			}
+<body bgcolor="#35260f" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0"
+      style="background-image:url(images/background.gif); background-position:top left; background-repeat:repeat-x;">
+<div id="box" class="dialog">
+    <div id="dinimg"></div>
+</div>
+<table cellpadding="0" cellspacing="0" height="100%" width="100%" style="margin:15px;">
+    <tr>
+        <td height="*" colspan="3"><img src="/images/spacer.gif"></td>
+    </tr>
+    <tr>
+        <td width="*">&nbsp;</td>
+        <td width="929">
+            <table id="Table_01" width="929" border="0" cellpadding="0" cellspacing="0" bgcolor="#110A00"
+                   class="degrade" style="border:7px #000000 solid;">
+                <tr>
+                    <td rowspan="2">
+                        <a href="/"><img src="/images/flordesal_01.jpg" width="179" height="79" alt="" border="0"></a>
+                    </td>
+                    <td width="750" height="26">
+                        <table id="Table_01" width="750" height="26" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="332" height="26">
+                                    <img src="/images/spacer.gif" alt="" width="1" height="26"></td>
+                                <td width="31" height="26" align="left" valign="top">
 
-</script>
-</td>
-	</tr>
-</table></td>
-	</tr>
-	<tr>
-		<td width="750" height="53">
-			<img src="/images/spacer.gif"  width="1" height="53" alt=""></td>
-	</tr>
-	<tr>
-		<td colspan="2" align="center">
-			<table id="Table_01" width="892" height="31" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td><a href="/restaurante" class="a_menu">Restaurante</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/bar" class="a_menu">Bar</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/esplanada" class="a_menu">Esplanada</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/carta" class="a_menu">Carta</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/vinhos" class="a_menu">Carta de Vinhos</a></td>
-		<td><div class="separador">|</div></td>
-		
-		<!--<td><a href="/catering" class="a_menu">Catering</a></td>
-		<td><div class="separador">|</div></td>-->
-		<td><a href="/chefe" class="a_menu">Chefe</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/galeria" class="a_menu">Galeria</a></td>
-		<td><div class="separador">|</div></td>
-		
-		<td><a href="/imprensa" class="a_menu">Imprensa</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/testemunhos" class="a_menu">Testemunhos</a></td>
-		<td><div class="separador">|</div></td>
-		<td><a href="/eventos" class="a_menu">Eventos</a></td>
-		<td width="105" align="right"><a href="/contactos" class="a_menu">Contactos</a></td>
-	</tr>
-</table>		
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2" width="929">
-			<div style="margin-bottom:20px">
-			<table id="Table_01"  width="929" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td width="929" valign="top" align="left">
-			<div style="margin:15px; margin-top:0px">			
-				<table id="Table_01" width="100%" height="16" border="0" cellpadding="0" cellspacing="0" height="44" style="background-image:url(images/bg_titulo.gif); background-position:top left; background-repeat:repeat-x;" >
-	<tr>
-		<td width="*"  height="44" ><div id="titulo" class="titulotopo">&nbsp;</div></td>
-	</tr>
+                                    <img src="/images/spacer.gif" width="31" height="26"></td>
+                                <td bgcolor="#000000" width="218" height="26" valign="top">
+                                    <a href="/reservas" class="atopo" style="margin-left:10px;">Reservas On-Line</a>
+                                    <span class="separadortopo">|</span>
+                                    <a href="/newsletter" class="atopo">Newsletter</a></td>
+                                <td bgcolor="#000000" width="169" height="26">
+                                    <form name="frm_newsletter" method="post" action="" style="margin:0px">
+                                        <table id="Table_01" width="169" height="26" border="0" cellpadding="0"
+                                               cellspacing="0">
+                                            <tr>
+                                                <td height="20" valign="top" align="left">
+                                                    <input type="text" class="input_newsletter" value="O seu email aqui"
+                                                           name="email" onMouseOver="muda_texto(this,1);"
+                                                           onMouseLeave="muda_texto(this,2);">
+                                                </td>
+                                                <td><img src="/images/spacer.gif" width="5" height="20"></td>
+                                                <td width="22" height="20" bgcolor="#f1f1ef" valign="middle"
+                                                    align="center" class="menu_lingua" onclick="news_valida();">
+                                                    OK
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3" height="6"><img src="/images/spacer.gif" width="1"
+                                                                                height="6"></td>
+                                            </tr>
+                                        </table>
+
+                                    </form>
+                                    <script language="javascript">
+                                        function muda_texto(a, opt) {
+                                            if (a.value == "O seu email aqui" && opt == 1)
+                                                a.value = "";
+                                            else if (a.value == "" && opt == 2)
+                                                a.value = "O seu email aqui";
+                                        }
+
+                                        function news_valida() {
+                                            //document.forms[0].target="corpo";
+                                            if (frm_newsletter.email.value != "" && frm_newsletter.email.value != "O seu email aqui")
+                                                frm_newsletter.action = "/newsletter&reg=2&nome=0";
+                                            else
+                                                frm_newsletter.action = "/newsletter";
+                                            frm_newsletter.submit();
+                                        }
+
+                                    </script>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="750" height="53">
+                        <img src="/images/spacer.gif" width="1" height="53" alt=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <table id="Table_01" width="892" height="31" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td><a href="/restaurante" class="a_menu">Restaurante</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/bar" class="a_menu">Bar</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/esplanada" class="a_menu">Esplanada</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/carta" class="a_menu">Carta</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/vinhos" class="a_menu">Carta de Vinhos</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+
+                                <!--<td><a href="/catering" class="a_menu">Catering</a></td>
+                                <td><div class="separador">|</div></td>-->
+                                <td><a href="/chefe" class="a_menu">Chefe</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/galeria" class="a_menu">Galeria</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+
+                                <td><a href="/imprensa" class="a_menu">Imprensa</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/testemunhos" class="a_menu">Testemunhos</a></td>
+                                <td>
+                                    <div class="separador">|</div>
+                                </td>
+                                <td><a href="/eventos" class="a_menu">Eventos</a></td>
+                                <td width="105" align="right"><a href="/contactos" class="a_menu">Contactos</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="929">
+                        <div style="margin-bottom:20px">
+                            <table id="Table_01" width="929" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="929" valign="top" align="left">
+                                        <div style="margin:15px; margin-top:0px">
+                                            <table id="Table_01" width="100%" height="16" border="0" cellpadding="0"
+                                                   cellspacing="0" height="44"
+                                                   style="background-image:url(images/bg_titulo.gif); background-position:top left; background-repeat:repeat-x;">
+                                                <tr>
+                                                    <td width="*" height="44">
+                                                        <div id="titulo" class="titulotopo">&nbsp;</div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <script> document.getElementById("titulo").innerHTML = "Galeria"</script>
+                                            <table id="Table_01" width="100%" height="100%" cellspacing="0">
+                                                <tr>
+                                                    <td align="left" width=100% height=100%>
+                                                        <div style="height:100%; width:100%; border:1px #615137 solid;">
+
+                                                            <link rel="stylesheet" type="text/css"
+                                                                  href="galeria/css/style.css"/>
+                                                            <link rel="stylesheet" type="text/css"
+                                                                  href="galeria/css/elastislide.css"/>
+                                                            <link
+                                                                href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1'
+                                                                rel='stylesheet' type='text/css'/>
+                                                            <link href='http://fonts.googleapis.com/css?family=Pacifico'
+                                                                  rel='stylesheet' type='text/css'/>
+                                                            <script type="text/javascript"
+                                                                    src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+                                                            <script type="text/javascript"
+                                                                    src="/galeria/js/jquery.tmpl.min.js"></script>
+                                                            <script type="text/javascript"
+                                                                    src="/galeria/js/jquery.easing.1.3.js"></script>
+                                                            <script type="text/javascript"
+                                                                    src="/galeria/js/jquery.elastislide.js"></script>
+                                                            <script type="text/javascript"
+                                                                    src="/galeria/js/gallery.js"></script>
+
+                                                            <div class="container">
+                                                                <noscript>
+                                                                    <style>
+                                                                        .es-carousel ul {
+                                                                            display: block;
+                                                                        }
+                                                                    </style>
+                                                                </noscript>
+                                                                <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+                                                                    <div class="rg-image-wrapper">
+                                                                        {{if itemsCount > 1}}
+                                                                            <div class="rg-image-nav">
+                                                                                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                                                                                <a href="#" class="rg-image-nav-next">Next Image</a>
+                                                                            </div>
+                                                                        {{/if}}
+                                                                        <div class="rg-image"></div>
+                                                                        <div class="rg-loading"></div>
+                                                                        <div class="rg-caption-wrapper">
+                                                                            <div class="rg-caption" style="display:none;">
+                                                                                <p></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </script>
+                                                                <div class="content">
+                                                                    <div id="rg-gallery" class="rg-gallery">
+                                                                        <div class="rg-thumbs">
+                                                                            <!-- Elastislide Carousel Thumbnail Viewer -->
+                                                                            <div class="es-carousel-wrapper">
+
+                                                                                <div class="es-carousel">
+
+                                                                                    <ul>
+                                                                                        Select * from galeria_imagens
+                                                                                        where galeria=21
+                                                                                        <li><a href="#"><img
+                                                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                                                            data-large="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                                                            alt="foto"
+                                                                                            data-description="Pormenor Garrafeira"/>
+                                                                                        </li>
+                                                                                        <li><a href="#"><img
+                                                                                            src="gestao/galeria/fotos/sestar_002.jpg"
+                                                                                            data-large="gestao/galeria/fotos/sestar_002.jpg"
+                                                                                            alt="foto"
+                                                                                            data-description="Sala interior"/>
+                                                                                        </li>
+
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- End Elastislide Carousel Thumbnail Viewer -->
+                                                                        </div><!-- rg-thumbs -->
+                                                                    </div><!-- rg-gallery -->
+                                                                    <div><!-- content -->
+                                                                    </div><!-- container -->
+
+                                                                </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <style type="text/css">
+                                                .tituloGaleria {
+
+                                                    position: relative;
+                                                    color: rgb(159, 142, 112);
+                                                    z-index: 3;
+                                                    top: 1px;
+                                                    height: 0px;
+                                                    padding: 10px 10px 10px 10px;
+                                                    background-image: url("/galeria/fundo2.png");
+                                                }
+
+                                                .tituloGaleria a {
+                                                    position: relative;
+                                                    top: -5px;
+                                                }
+
+                                                .imagem {
+                                                    /*position:relative;
+                                                    top:0px;
+                                                    z-index: 2;
+                                                    /*margin: 1px 2px 2px 1px;*/
+                                                    /*width: 210px;*/
+                                                    padding: 1px 1px 1px 1px;
+                                                }
+                                            </style>
+
+
+                                            <table cellspacing="10" aling="center">
+                                                <tr>
+                                                    <td style="border:1px #615137 solid;">
+                                                        <div class="imagem"><img
+                                                            src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria"
+                                                            height="150px" width="206px">
+                                                            <div class="tituloGaleria">
+                                                                <center><a href="#">Esplanada</a>
+                                                                </center>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td style="border:1px #615137 solid;">
+                                                        <div class="imagem"><img
+                                                            src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria"
+                                                            height="150px" width="206px">
+                                                            <div class="tituloGaleria">
+                                                                <center><a href="#">Sala de Jantar</a>
+                                                                </center>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td style="border:1px #615137 solid;">
+                                                        <div class="imagem"><img
+                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                            alt="capa galeria" height="150px" width="206px">
+                                                            <div class="tituloGaleria">
+                                                                <center><a href="#">Restaurante</a>
+                                                                </center>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td style="border:1px #615137 solid;">
+                                                        <div class="imagem"><img
+                                                            src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg"
+                                                            alt="capa galeria" height="150px" width="206px">
+                                                            <div class="tituloGaleria">
+                                                                <center><a href="#">Bar</a></center>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="929" height="56"
+                        style="background-image:url(images/bg_linguas.gif); background-position:top left; background-repeat:repeat-x;">
+                        <table id="Table_01" width="216" height="16" border="0" cellpadding="0" cellspacing="0"
+                               style="margin:10px;">
+                            <tr>
+                                <td width="103" class="menu_lingua">Português
+                                </td>
+                                <td width="*">&nbsp;</td>
+                                <td width="103" class="menu_lingua">English
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="929" height="27"
+                        style="background-image:url(images/bg_menufundo.gif); background-position:top left; background-repeat:repeat-x;">
+                        <table id="Table_01" width="929" height="27" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <a href="/sugira" class="afundo" style="margin-left:10px;">Recomendar este Site</a>
+                                    <span class="afundo">|</span>
+                                    <a href="javascript:addfav()" class="afundo">Favoritos</a> <span
+                                    class="afundo">|</span>
+                                    <a href="/privacidade" class="afundo">Política de Privacidade</a> <span
+                                    class="afundo">|</span>
+                                    <a href="/faqs" class="afundo">Perguntas frequentes</a>
+
+                                </td>
+                                <td align="right">
+                                    <img src="/images/direitos.jpg" width="255" height="27" alt=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td width="*">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="*" colspan="3"><img src="/images/spacer.gif"></td>
+    </tr>
 </table>
-<script> document.getElementById("titulo").innerHTML="Galeria"</script><table id="Table_01" width="100%" height="100%" cellspacing="0">
-	<tr>
-						<td align="left" width=100% height=100%><div style="height:100%; width:100%; border:1px #615137 solid;">
-			              	   
-	   <link rel="stylesheet" type="text/css" href="galeria/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="galeria/css/elastislide.css" />
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="galeria/js/jquery.tmpl.min.js"></script>
-		<script type="text/javascript" src="galeria/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="galeria/js/jquery.elastislide.js"></script>
-		<script type="text/javascript" src="galeria/js/gallery.js"></script>
-	
-		<div class="container">
-		<noscript>
-			<style>
-				.es-carousel ul{
-					display:block;
-				}
-			</style>
-		</noscript>
-		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
-			<div class="rg-image-wrapper">
-				{{if itemsCount > 1}}
-					<div class="rg-image-nav">
-						<a href="#" class="rg-image-nav-prev">Previous Image</a>
-						<a href="#" class="rg-image-nav-next">Next Image</a>
-					</div>
-				{{/if}}
-				<div class="rg-image"></div>
-				<div class="rg-loading"></div>
-				<div class="rg-caption-wrapper">
-					<div class="rg-caption" style="display:none;">
-						<p></p>
-					</div>
-				</div> 
-			</div>
-		</script>
-			<div class="content">
-				<div id="rg-gallery" class="rg-gallery">
-					<div class="rg-thumbs">
-						<!-- Elastislide Carousel Thumbnail Viewer -->
-					<div class="es-carousel-wrapper">
-							
-							<div class="es-carousel">
-							
-								<ul>
-									Select * from galeria_imagens where galeria=21<li><a href="#"><img src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg" data-large="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg" alt="foto" data-description="Pormenor Garrafeira" /></li><li><a href="#"><img src="gestao/galeria/fotos/sestar_002.jpg" data-large="gestao/galeria/fotos/sestar_002.jpg" alt="foto" data-description="Sala interior" /></li>							
-								
-								</ul>
-							</div>
-						</div>
-						<!-- End Elastislide Carousel Thumbnail Viewer -->
-					</div><!-- rg-thumbs -->
-				</div><!-- rg-gallery -->
-		   <div><!-- content -->
-		</div><!-- container -->
-		
-					</div></td>
-	</tr>
-</table>		
 
-<style type="text/css">
-	.tituloGaleria{
-		
-		position:relative;
-		color: rgb(159, 142, 112);
-		z-index: 3;
-		top: 1px;
-		height:0px;
-		padding: 10px 10px 10px 10px;
-		background-image:url("galeria/fundo2.png");
-	}
-	
-	.tituloGaleria a{
-		position:relative;
-		top: -5px;
-	}
-	
-	.imagem{
-		/*position:relative;
-		top:0px;
-		z-index: 2;
-		/*margin: 1px 2px 2px 1px;*/
-		/*width: 210px;*/
-		padding: 1px 1px 1px 1px;
-	}
-</style>
-
-
-<table cellspacing="10" aling="center"><tr>
-<td style="border:1px #615137 solid;">
-	<div class="imagem"><img src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria" height="150px" width="206px">		<div class="tituloGaleria"><center><a href="/galeria&galeria=25">Esplanada</a></center></div>
-	</div>
-</td>
-<td style="border:1px #615137 solid;">
-	<div class="imagem"><img src="gestao/galeria/fotos/sestar_002.jpg" alt="capa galeria" height="150px" width="206px">		<div class="tituloGaleria"><center><a href="/galeria&galeria=23">Sala de Jantar</a></center></div>
-	</div>
-</td>
-<td style="border:1px #615137 solid;">
-	<div class="imagem"><img src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg" alt="capa galeria" height="150px" width="206px">		<div class="tituloGaleria"><center><a href="/galeria&galeria=21">Restaurante</a></center></div>
-	</div>
-</td>
-<td style="border:1px #615137 solid;">
-	<div class="imagem"><img src="gestao/galeria/fotos/pormnor_oliveira_restaurante.jpg" alt="capa galeria" height="150px" width="206px">		<div class="tituloGaleria"><center><a href="/galeria&galeria=24">Bar</a></center></div>
-	</div>
-</td>
-</tr></table>
-			</div>
-		</td>
-	</tr>
-</table>			</div>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2" width="929" height="56" style="background-image:url(images/bg_linguas.gif); background-position:top left; background-repeat:repeat-x;">
-			<table id="Table_01" width="216" height="16" border="0" cellpadding="0" cellspacing="0" style="margin:10px;">
-	<tr>
-		<td width="103" class="menu_lingua" onclick="javascript:document.location='//galeria&lingua=pt';">Português</td>
-		<td width="*">&nbsp;</td>
-		<td width="103" class="menu_lingua" onclick="javascript:document.location='//galeria&lingua=uk';">English</td>
-	</tr>
-</table></td>
-	</tr>
-	<tr>
-		<td colspan="2" width="929" height="27" style="background-image:url(images/bg_menufundo.gif); background-position:top left; background-repeat:repeat-x;">
-			<table id="Table_01" width="929" height="27" border="0" cellpadding="0" cellspacing="0">
-	<tr>
-		<td align="left">
-				<a href="/sugira" class="afundo" style="margin-left:10px;">Recomendar este Site</a> <span  class="afundo">|</span>
-				<a href="javascript:addfav()" class="afundo">Favoritos</a> <span  class="afundo">|</span>
-				<a href="/privacidade" class="afundo">Política de Privacidade</a> <span  class="afundo">|</span>
-				<a href="/faqs" class="afundo">Perguntas frequentes</a>
-	
-		</td>
-		<td align="right">
-			<img src="/images/direitos.jpg" width="255" height="27" alt=""></td>
-	</tr>
-</table>		</td>
-	</tr>
-</table>			</td>
-			<td width="*">&nbsp;</td>
-		</tr>
-		<tr>
-			<td height="*" colspan="3"><img src="/images/spacer.gif"></td>
-		</tr>		
-	</table>
-     	
 </body>
 </html>
-<br />
-<b>Warning</b>:  Unknown: write failed: Disk quota exceeded (122) in <b>Unknown</b> on line <b>0</b><br />
-<br />
-<b>Warning</b>:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in <b>Unknown</b> on line <b>0</b><br />
+
