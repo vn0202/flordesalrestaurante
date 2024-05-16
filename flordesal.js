@@ -146,7 +146,8 @@ function tamimg(n,p)
 				tamanho[n]=tamanho[n].split(",");
 				var onC='imagem('+tamanho[n][0]+','+tamanho[n][1]+',"'+popups[n]+'","")';
 				
-				popupsimgs[n].onclick=new Function(onC); 
+				popupsimgs[n].onclick = new Function(onC);
+
 			}
 		  }
 		  httpobj[n].send(null);
